@@ -1,5 +1,19 @@
 *.class
 *.log
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.idea/
+out/
+.idea_modules/
+dist/*
+target/
+target*/
+lib_managed/
+src_managed/
+project/boot/
+project/target/
+project/plugins/project/
+project/local-plugins.sbt
+.cache
+.lib/
+.bsp
+.bloop/
+local.sbt
