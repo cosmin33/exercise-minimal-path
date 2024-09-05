@@ -4,6 +4,7 @@
 out/
 .idea_modules/
 dist/*
+data/data_big.txt
 target/
 target*/
 lib_managed/
