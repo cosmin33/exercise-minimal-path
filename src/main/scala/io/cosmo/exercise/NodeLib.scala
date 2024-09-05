@@ -1,3 +1,5 @@
+package io.cosmo.exercise
+
 trait NodeLib[Id] {
   
   def get(id: Id): Option[Int]
