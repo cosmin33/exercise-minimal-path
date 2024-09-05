@@ -1,8 +1,14 @@
-## sbt project compiled with Scala 3
-
 ### Usage
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+sbt "run file-path"
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+# Working examples:
+
+# This one is with the tiny example dataset from the PDF
+sbt"run ./data/data.txt"
+
+# This one is starting to take a while
+sbt "run ./data/data_small.txt"
+
+# For the following you should copy the data_big.txt file to the data folder, I excluded it from git because it is too big. 
+sbt "run ./data/data_big.txt"
