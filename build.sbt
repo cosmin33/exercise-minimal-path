@@ -8,6 +8,8 @@ lazy val root = project
 
     scalaVersion := scala3Version,
 
+    mainClass := Some("io.cosmo.exercise.MyApp"),
+
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio" % "2.1.9",
       "dev.zio" %% "zio-streams" % "2.1.9"
